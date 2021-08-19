@@ -1,4 +1,5 @@
 # periodic-table
+This project shows the animated periodic table
 
 ## Project setup
 ```
