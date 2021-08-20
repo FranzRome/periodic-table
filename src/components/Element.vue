@@ -8,6 +8,8 @@
 </template>
 
 <script>
+//import $ from 'jquery'
+
 export default {
   name: 'Element',
   props: {
@@ -15,7 +17,10 @@ export default {
     atomicNumber: Number,
     symbol: String,
     name: String,
-    atomicMass: Number,
+    atomicMass : Number,
+
+  },
+  created: function(){
   }
 }
 </script>
@@ -25,14 +30,18 @@ export default {
   *{
     user-select: none;
   }
-
+  
   .element{
     width: 80px;
     height: 80px;
     border: 2px solid rgba(0, 155, 194, 0.555);
-    background-color: rgba(0, 177, 230, 0.5);
+    background-color: rgba(0, 176, 230, 0.603);
+    
     margin: 2px;
     transition: 0.08s;
+  }
+  .element *{
+    color: rgb(0, 0, 0);
   }
   .element:hover{
     transform: scale(2, 2);
