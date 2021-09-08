@@ -1,5 +1,5 @@
 <template>
-  <div :class="{element: atomicNumber, 'empty-space': isEmpty}">
+  <div :class="{element: atomicNumber, family}">
     <span class="atomic-number">{{ atomicNumber }}</span>
     <span class="atomic-mass">{{ atomicMass }}</span>
     <h1 class="symbol">{{ symbol }}</h1>
@@ -17,8 +17,8 @@ export default {
     atomicNumber: Number,
     symbol: String,
     name: String,
-    atomicMass : Number,
-
+    atomicMass: Number,
+    family: String
   },
   created: function(){
   }
@@ -83,5 +83,21 @@ export default {
     left: 50%;
     bottom: 0%;
     margin: 8px;
+  }
+
+  .alkali-metal{
+    background-color: red;
+  }
+  .alkaline-earth-metal{
+    background-color: orange;
+  }
+  .transition-metal{
+    background-color: yellow;
+  }
+  .halogen{
+    background-color: greenyellow;
+  }
+  .noble-gas{
+    background-color: rgba(0, 255, 255, 0.650);
   }
 </style>

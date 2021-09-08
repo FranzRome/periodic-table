@@ -5,7 +5,8 @@
              :atomicNumber="element.atomicNumber"
              :symbol="element.symbol"
              :name="element.name"
-             :atomicMass="element.atomicMass"/>
+             :atomicMass="element.atomicMass"
+             :family="element.family"/>
   </div>
 </template>
 
@@ -42,7 +43,7 @@ export default {
         
 
         //Row 2
-        {isEmpty: false, atomicNumber: 3, symbol: "Li", name: "Lithium", atomicMass: 6.941},
+        {isEmpty: false, atomicNumber: 3, symbol: "Li", name: "Lithium", atomicMass: 6.941, family: "alkali-metals"},
         {isEmpty: false, atomicNumber: 4, symbol: "Be", name: "Beryllium", atomicMass: 9.0122},
         {isEmpty: true},
         {isEmpty: true},
@@ -141,25 +142,25 @@ export default {
         {isEmpty: false, atomicNumber: 85, symbol: "At", name: "Astatine", atomicMass: "[210]"},
         {isEmpty: false, atomicNumber: 86, symbol: "Rn", name: "Radon", atomicMass: "[222]"},
 
-        //Row 7 TODO
+        //Row 7
         {isEmpty: false, atomicNumber: 87, symbol: "Fr", name: "Francium", atomicMass: 223.020},
         {isEmpty: false, atomicNumber: 88, symbol: "Ra", name: "Radium", atomicMass: 6.941},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
+        {isEmpty: false, atomicNumber: 103, symbol: "Lr", name: "Lawrencium", atomicMass: "[262]"},
+        {isEmpty: false, atomicNumber: 104, symbol: "Rf", name: "Rutherfordium", atomicMass: "[261]"},
+        {isEmpty: false, atomicNumber: 105, symbol: "Db", name: "Dubnium", atomicMass: "[262]"},
+        {isEmpty: false, atomicNumber: 106, symbol: "Sg", name: "Seaborgium", atomicMass: "[266]"},
+        {isEmpty: false, atomicNumber: 107, symbol: "Bh", name: "Bohrium", atomicMass: "[264]"},
+        {isEmpty: false, atomicNumber: 108, symbol: "Hs", name: "Hassium", atomicMass: "[269]"},
+        {isEmpty: false, atomicNumber: 109, symbol: "Mt", name: "Meintnerium", atomicMass: "[268]"},
+        {isEmpty: false, atomicNumber: 110, symbol: "Uun", name: "Ununnlilium", atomicMass: "[271]"},
+        {isEmpty: false, atomicNumber: 111, symbol: "Uuu", name: "Unununium", atomicMass: "[272]"},
+        {isEmpty: false, atomicNumber: 112, symbol: "Uub", name: "Ununbium", atomicMass: "[277]"},
+        {isEmpty: true},
+        {isEmpty: false, atomicNumber: 114, symbol: "Uuq", name: "Ununquadium", atomicMass: "[289]"},
+        {isEmpty: true},
+        {isEmpty: true},
+        {isEmpty: true},
+        {isEmpty: true},
 
         //Row 8
         {isEmpty: true},
@@ -181,43 +182,43 @@ export default {
         {isEmpty: true},
         {isEmpty: true},
 
-        //Row 9 TODO
+        //Row 9
         {isEmpty: true},
         {isEmpty: true},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
+        {isEmpty: false, atomicNumber: 57, symbol: "La", name: "Lanthanum", atomicMass: 138.91},
+        {isEmpty: false, atomicNumber: 58, symbol: "Ce", name: "Cerium", atomicMass: 140.12},
+        {isEmpty: false, atomicNumber: 59, symbol: "Pr", name: "Praseodymium", atomicMass: 140.91},
+        {isEmpty: false, atomicNumber: 60, symbol: "Nd", name: "Neodymium", atomicMass: 144.24},
+        {isEmpty: false, atomicNumber: 61, symbol: "Pm", name: "Promethium", atomicMass: "[145]"},
+        {isEmpty: false, atomicNumber: 62, symbol: "Sm", name: "Samarium", atomicMass: 150.36},
+        {isEmpty: false, atomicNumber: 63, symbol: "Eu", name: "Europium", atomicMass: 151.96},
+        {isEmpty: false, atomicNumber: 64, symbol: "Gd", name: "Gadolinium", atomicMass: 157.25},
+        {isEmpty: false, atomicNumber: 65, symbol: "Tb", name: "Terbium", atomicMass: 158.93},
+        {isEmpty: false, atomicNumber: 66, symbol: "Dy", name: "Dysprosium", atomicMass: 162.50},
+        {isEmpty: false, atomicNumber: 67, symbol: "Ho", name: "Holmium", atomicMass: 164.93},
+        {isEmpty: false, atomicNumber: 68, symbol: "Er", name: "Erbium", atomicMass: 167.26},
+        {isEmpty: false, atomicNumber: 69, symbol: "Tm", name: "Thulium", atomicMass: 168.93},
+        {isEmpty: false, atomicNumber: 70, symbol: "Yb", name: "Ytterbium", atomicMass: 173.04},
         {isEmpty: true},
         {isEmpty: true},
 
-        //Row 10 TODO
+        //Row 10
         {isEmpty: true},
         {isEmpty: true},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
-        {isEmpty: false, atomicNumber: 1, symbol: "Symb", name: "Name", atomicMass: 0.001},
+        {isEmpty: false, atomicNumber: 89, symbol: "Ac", name: "Actinium", atomicMass: "[227]"},
+        {isEmpty: false, atomicNumber: 90, symbol: "Th", name: "Thorium", atomicMass: 232.04},
+        {isEmpty: false, atomicNumber: 91, symbol: "Pa", name: "Protactinium", atomicMass: 231.04},
+        {isEmpty: false, atomicNumber: 92, symbol: "U", name: "Uranium", atomicMass: 238.03},
+        {isEmpty: false, atomicNumber: 93, symbol: "Np", name: "Neptunium", atomicMass: "[237]"},
+        {isEmpty: false, atomicNumber: 94, symbol: "Pu", name: "Plutonium", atomicMass: "[244]"},
+        {isEmpty: false, atomicNumber: 95, symbol: "Am", name: "Americium", atomicMass: "[243]"},
+        {isEmpty: false, atomicNumber: 96, symbol: "Cm", name: "Curium", atomicMass: "[247]"},
+        {isEmpty: false, atomicNumber: 97, symbol: "Bk", name: "Berkelium", atomicMass: "[247]"},
+        {isEmpty: false, atomicNumber: 98, symbol: "Cf", name: "Califormium", atomicMass: "[251]"},
+        {isEmpty: false, atomicNumber: 99, symbol: "Es", name: "Einsreinium", atomicMass: "[272]"},
+        {isEmpty: false, atomicNumber: 100, symbol: "Fm", name: "Fermium", atomicMass: "[257]"},
+        {isEmpty: false, atomicNumber: 101, symbol: "Md", name: "Mendelevium", atomicMass: "[258]"},
+        {isEmpty: false, atomicNumber: 102, symbol: "No", name: "Nobelium", atomicMass: "[259]"},
         {isEmpty: true},
         {isEmpty: true},
       ]
@@ -232,6 +233,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  overflow: auto;
   position: fixed;
   top: 0px;
   left: 0px;
