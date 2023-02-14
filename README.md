@@ -2,6 +2,11 @@
 
 This project shows the animated periodic table
 
+## Features
+
+* Complete elements list
+* Beautiful animations
+
 ## Project setup
 
 ``` bash
