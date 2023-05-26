@@ -18,7 +18,7 @@ export default {
       symbol: String,
       name: String,
       atomicMass: Number,
-      series: Number,
+      series: String,
       group: Number,
    },
    created: function () {},
