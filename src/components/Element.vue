@@ -1,5 +1,5 @@
 <template>
-   <div :class="{ element: atomicNumber, family }">
+   <div class="element atomicNumber family">
       <span class="atomic-number">{{ atomicNumber }}</span>
       <span class="atomic-mass">{{ atomicMass }}</span>
       <h1 class="symbol">{{ symbol }}</h1>
